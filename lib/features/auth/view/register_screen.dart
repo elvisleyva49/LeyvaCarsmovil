@@ -28,9 +28,10 @@ class _RegisterBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final vm = Provider.of<RegisterViewModel>(context);
 
-    return Scaffold(
-      appBar: AppBar(title: const Text("Crear cuenta")),
-      body: Padding(
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBar(title: const Text("Crear cuenta")),
+        body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
@@ -89,6 +90,7 @@ class _RegisterBody extends StatelessWidget {
               child: const Text("Ya tengo cuenta"),
             ),
           ],
+        ),
         ),
       ),
     );

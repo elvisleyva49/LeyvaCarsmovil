@@ -27,9 +27,10 @@ class _LoginBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final vm = Provider.of<LoginViewModel>(context);
 
-    return Scaffold(
-      appBar: AppBar(title: const Text("Login")),
-      body: Padding(
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBar(title: const Text("Login")),
+        body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
@@ -77,6 +78,7 @@ class _LoginBody extends StatelessWidget {
               child: const Text("Crear cuenta"),
             ),
           ],
+        ),
         ),
       ),
     );
