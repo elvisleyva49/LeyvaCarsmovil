@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "46345706800",
+    "project_id": "leyvacarsmovil",
+    "storage_bucket": "leyvacarsmovil.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46345706800:android:84b6d8033f175a89007cf5",
+        "android_client_info": {
+          "package_name": "com.example.leyvacarsmovil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOkwNYd3Ne0ji_CtD-SEpX-j4uURqkpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
